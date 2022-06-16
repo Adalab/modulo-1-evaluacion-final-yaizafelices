@@ -1,26 +1,23 @@
 .header {
-    background-image: url(../images/header.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
     position: fixed;
-    
-
 }
 
 .figure {
     margin-top: 1.188rem;
     display: flex;
+
 }
 .icon-menu {
     height: 1.5rem;
-    margin: 2.25rem 0 0 2.063rem;
+    margin: 2.25rem 2.688rem 0 2.063rem;
 
 }
 
 .logo {
     width: 13.313rem;
     height: 6rem;
-    align-self: center;
+}
+
+.nav {
+    display: none;
 }
