@@ -4,7 +4,7 @@
     color: $color-light-grey;
     padding:56px 59px 56px 146px;
     
-    &__list-1 {
+    &__section {
         list-style: none;
     }
 
@@ -31,4 +31,11 @@
         color: $color-white;
         height: 26px;
     }
+}
+
+.arrow {
+    color: $color-white;
+    position: absolute;
+    padding: 24px 30px;
+    right: 0;
 }
