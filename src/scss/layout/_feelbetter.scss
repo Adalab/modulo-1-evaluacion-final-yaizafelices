@@ -1,26 +1,31 @@
  /*UTILIZAR GRID*/
-
+ 
+ .upper {
+    text-transform: uppercase;
+}
 
 .feel-better {
     background-color: $color-light-grey;
     text-align: center;
     color: $color-spruce;
+    display: grid;
+    grid-template-rows: 154px 318px 318px 318px;
+    
 }
 
 .title-better {
-    padding: 41px 47px 0 45px;
+    padding: 41px 47px 47px 45px;    
 }
 
-.upper {
-    text-transform: uppercase;
-}
 
 .icon-better {
+    padding: 45px 0 35px 0;
     width: 90px;
-    padding: 37px 0 37px 0;
+ 
 
 }
 .text-article {
-    padding: 0 103px 18px 103px;
+    padding: 0 103px;
+  
 
 }
