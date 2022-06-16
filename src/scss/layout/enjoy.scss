@@ -3,8 +3,24 @@
  
  .enjoy {
     background-color: $color-light-grey;
-    height: 643px;
+    display: grid;
+    grid-template-rows: 339px 304px;
+    color: $color-spruce;
+}
+
+.item-decoration {
+    text-align: center;
+    padding: 87px 27px 92px 27px;
+
+
+
+
+    &__text {
+        padding-bottom: 40px;
+    }
+
 }
 .image-decoration {
-    height: 304px;
+    height: 100%;
+    width: 100vw;
 }
