@@ -5,19 +5,19 @@
 
 .figures {
     margin-top: 1.188rem;
-    display: flex;
 
 
 }
 .icon-menu {
     height: 1.5rem;
     margin: 2.25rem 2.688rem 0 2.063rem;
-
+    position: fixed;
 }
 
 .logo {
     width: 13.313rem;
     height: 6rem;
+    display: flex;
 }
 
 .nav {
