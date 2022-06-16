@@ -10,7 +10,23 @@
 }
 
 .rectangle-hero {
-    width: 85%;
     margin: 0 auto;
     text-align: center;
+}
+
+.title-hero{
+    color: $color-spruce;
+
+}
+
+.button-buy{
+    color: $color-white;
+    background-color: $color-spruce;
+    width: 11rem;
+    height: 3rem;
+    text-decoration: none;
+    
+    
+
+    
 }
