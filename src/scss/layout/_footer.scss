@@ -3,21 +3,43 @@
     height: 545px;
     color: $color-light-grey;
     padding:36px 59px 0 146px;
+
+    @media all and (min-width: 768px){
+        display: flex;
+        gap: 30px;
+        height: 276px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media all and (min-width: 1024px){
+        gap: 100px;
+    }
     
     &__section {
         list-style: none;
+        @media all and (min-width: 768px){
+            height: 96px;
+            width: 208px;
+
+        }
     }
 
     &__title {
         padding-top: 30px;
         list-style: none;
         font-size: $size-small-title;
+        @media all and (min-width: 768px){
+            padding-top: 0;
+        }
     }
 
     &__list {
         padding-top: 12px;
         list-style: none;
         font-size: $size-small-text;
+
     }
 
     &__link {
@@ -41,4 +63,8 @@
     position: absolute;
     padding: 16px 32px;
     right: 0;
+    @media all and (min-width: 768px){
+        padding-top: 130px;
+        padding-right: 57px;
+    }
 }
