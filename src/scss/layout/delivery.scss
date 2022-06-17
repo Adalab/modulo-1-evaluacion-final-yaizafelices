@@ -3,17 +3,22 @@
     color: $color-white;
     text-align: center;
     height: 352px;
-}
 
-.icon-truck {
+&__icon-truck {
     padding: 46px 0 10px;
 }
 
-.text-delivery {
-    margin-bottom: 17px;
+&__title{
+    padding-bottom: 10px;
 }
 
-.buy {
+&__text {
+    margin-bottom: 17px;
+    font-size: $size-small-text;
+}
+
+&__button {
     padding: 12px 24px;
     color: $color-white;
+}
 }

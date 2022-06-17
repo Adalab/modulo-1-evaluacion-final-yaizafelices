@@ -11,12 +11,15 @@
     &__title {
         padding-top: 10px;
         list-style: none;
+        font-size: $size-small-title;
+    
        
     }
     &__list {
         padding-bottom: 20px;
         padding-top: 12px;
         list-style: none;
+        font-size: $size-small-text;
 
     }
     &__link {
