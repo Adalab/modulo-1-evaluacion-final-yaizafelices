@@ -6,6 +6,10 @@
     display: grid;
     grid-template-rows: 339px 304px;
     color: $color-spruce;
+
+    @media all and (min-width: 768px){
+        grid-template-rows: 339px 474px;
+    }
     @media all and (min-width: 1024px){
         grid-template-rows: 571px;
         grid-template-columns: 1fr 1fr;
