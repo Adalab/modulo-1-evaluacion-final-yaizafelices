@@ -1,9 +1,8 @@
 .delivery {
-    background-color: #FF975A;
+    background-color: $color-orange;
     color: $color-white;
     text-align: center;
     height: 352px;
-    width: 100vw;
 
 &__icon-truck {
     padding: 46px 0 10px;
