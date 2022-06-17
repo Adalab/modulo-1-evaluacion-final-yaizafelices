@@ -31,9 +31,12 @@
     display: none;
 
     @media all and (min-width: 1024px){
-        display: inline;
+        display: flex;
+        position: absolute;
+        top: 0;
         position: fixed;
         padding-left: 76px;
+        padding-top: 62px;
     }
     &__link{
         display: flex;
