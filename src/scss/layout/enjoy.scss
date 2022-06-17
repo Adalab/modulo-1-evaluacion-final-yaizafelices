@@ -7,7 +7,7 @@
     grid-template-rows: 339px 304px;
     color: $color-spruce;
     @media all and (min-width: 1024px){
-        grid-template-rows: 1fr;
+        grid-template-rows: 571px;
         grid-template-columns: 1fr 1fr;
     }
     
@@ -37,8 +37,9 @@
     }
     @media all and (min-width: 1024px){
         text-align: left;
-        width: 430px;
-        padding: 87px 27px 92px 120px;
+        width: 281px;
+        padding: 176px 27px 92px 280px;
+ 
     }
 
 }

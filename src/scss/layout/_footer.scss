@@ -15,13 +15,14 @@
 
     @media all and (min-width: 1024px){
         gap: 100px;
+        height: 276px;
     }
     
     &__section {
         list-style: none;
         @media all and (min-width: 768px){
             height: 96px;
-            width: 208px;
+            width: 393px;
 
         }
     }
