@@ -6,6 +6,11 @@
     display: grid;
     grid-template-rows: 339px 304px;
     color: $color-spruce;
+    @media all and (min-width: 1024px){
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
 
 
@@ -15,14 +20,31 @@
 
     &__title{
         font-size: $size-big-title;
+        @media all and (min-width: 1024px){
+            font-size: $size-big-title-tablet;
+
+        }
+
     }
+
 
     &__text {
         padding-bottom: 40px;
         font-size: $size-small-text;
+        @media all and (min-width: 1024px){
+            font-size: $size-normal-text;
+        }
+    }
+    @media all and (min-width: 1024px){
+        text-align: left;
+        width: 430px;
+        padding: 87px 27px 92px 120px;
     }
 
 }
 .image-decoration {
-background-image: url(./assets/.image-decoration);
+background-image: url(../images/creando-espacios.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
 }

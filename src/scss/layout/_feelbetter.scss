@@ -10,13 +10,13 @@
     color: $color-spruce;
 
 
-    @media all and (max-width: 900px){
+    @media all and (max-width: 768px){
     display: grid ;
     grid-template-rows: 154px 318px 318px 318px;
 }
 
 
-    @media all and (min-width: 900px){
+    @media all and (min-width: 768px){
         display: grid ;
         grid-template-columns: (1fr 1fr 1fr) ;
         grid-template-rows: (159px 453px);
@@ -30,16 +30,17 @@
     font-size: $size-big-title;
         padding: 41px 47px 47px 45px;
 
-    @media all and (min-width: 900px){
+    @media all and (min-width: 768px){
         grid-column: span 3;
     }
+    @media all and (min-width: 768px){}
 }
 
 
 .icon-better {
     width: 90px;
     padding: 45px 0 35px 0;
-    @media all and (min-width: 900px){
+    @media all and (min-width: 768px){
         padding-top: 0;
         object-fit: contain;
     }
@@ -50,7 +51,7 @@
     padding: 0 103px;
     &__title {
         font-size: $size-small-title;
-          
+
     }
 
     &__text{
@@ -60,7 +61,7 @@
 
     }
 
-     @media all and (min-width: 900px){
+     @media all and (min-width: 768px){
         
             grid-column: 1/2;
             grid-row: 1/2;
