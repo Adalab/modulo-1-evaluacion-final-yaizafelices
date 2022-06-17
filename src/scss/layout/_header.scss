@@ -29,4 +29,22 @@
 
 .nav {
     display: none;
+
+    @media all and (min-width: 1024px){
+        display: inline;
+        position: fixed;
+        padding-left: 76px;
+    }
+    &__link{
+        display: flex;
+        list-style-type: none;
+        gap: 30px;
+     
+
+        &__text{
+            text-decoration: none;
+            color: $color-spruce;
+        }
+
+    }
 }
