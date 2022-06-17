@@ -8,15 +8,18 @@
     color: $color-spruce;
 }
 
-.item-decoration {
+
+.decoration {
     text-align: center;
     padding: 87px 27px 92px 27px;
 
-
-
+    &__title{
+        font-size: $size-big-title;
+    }
 
     &__text {
         padding-bottom: 40px;
+        font-size: $size-small-text;
     }
 
 }

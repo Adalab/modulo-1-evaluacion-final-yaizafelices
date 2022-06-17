@@ -17,6 +17,7 @@
 .title-hero{
     color: $color-spruce;
     padding: 62px 0;
+    font-size: $size-big-title;
 
 
 }
@@ -24,6 +25,7 @@
 .button-buy{
     color: $color-white;
     background-color: $color-spruce;
+    font-size: $size-normal-text;
     width: 11rem;
     height: 3rem;
     text-decoration: none;
@@ -31,5 +33,6 @@
     margin-bottom: 76px;
     border: none;
     margin-top: 50px;
+
 }
 

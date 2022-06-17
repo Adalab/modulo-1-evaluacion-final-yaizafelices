@@ -10,6 +10,7 @@
 
 &__title{
     padding-bottom: 10px;
+    font-size: $size-big-title;
 }
 
 &__text {
@@ -20,5 +21,6 @@
 &__button {
     padding: 12px 24px;
     color: $color-white;
+    font-size: $size-normal-text;
 }
 }

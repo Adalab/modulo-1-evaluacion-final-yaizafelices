@@ -14,7 +14,8 @@
 }
 
 .title-better {
-    padding: 41px 47px 47px 45px;  
+    padding: 41px 47px 47px 45px;
+    font-size: $size-big-title;
 }
 
 
@@ -24,7 +25,17 @@
  
 
 }
-.text-article {
+.article {
     padding: 0 103px;
+
+    &__title {
+        font-size: $size-small-title;
+        
+    }
+
+    &__text{
+        font-size: $size-normal-text;
+        padding-top: 8px;
+    }
   
 }
