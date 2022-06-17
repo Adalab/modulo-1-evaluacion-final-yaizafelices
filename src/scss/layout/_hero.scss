@@ -6,7 +6,8 @@
     width: 100%;
     height: 100vh; 
     display: flex;
-    align-items: center;   
+    align-items: center;
+
 
 &__rectangle {
     margin: 0 auto;
@@ -18,6 +19,8 @@
         width: 430px;
         margin-left:147px;
     }
+    @media all and (min-width: 1728px){
+        margin-left:280px;
 
 }
 
@@ -31,7 +34,9 @@
         padding: 24px 0;
     
     }
-
+    @media all and (min-width: 1728px){
+        padding-top: 0;
+    }
 
 }
 }
