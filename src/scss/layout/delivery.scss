@@ -23,6 +23,9 @@
     padding: 12px 24px;
     color: $color-white;
     font-size: $size-normal-text;
+    &:hover {
+        color: $color-spruce;
+      }
 }
 
 @media all and (min-width: 1728px){
