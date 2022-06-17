@@ -4,7 +4,7 @@
     color: $color-light-grey;
 
     @media all and (max-width: 900px){
-        padding: 56px 59px 0 146px;
+
     }
 
     @media all and (min-width: 900px){
@@ -22,6 +22,14 @@
     
     &__section {
         list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+
         @media all and (min-width: 900px){
             height: 131px;
             width: 208px;
@@ -33,6 +41,8 @@
         padding-top: 30px;
         list-style: none;
         font-size: $size-small-title;
+        width: 208px;
+        text-align: left;
         @media all and (min-width: 900px){
             padding-top: 0;
         }
@@ -42,6 +52,8 @@
         padding-top: 12px;
         list-style: none;
         font-size: $size-small-text;
+        width: 208px;
+        text-align: left;
 
     }
 
