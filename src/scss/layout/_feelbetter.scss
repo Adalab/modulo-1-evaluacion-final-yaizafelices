@@ -16,9 +16,11 @@
 
 
     @media all and (min-width: 900px){
+        display: grid ;
         grid-template-columns: (1fr 1fr 1fr) ;
         grid-template-rows: (159px 453px);
-
+        padding-left: 90px;
+        padding-right: 90px;
     }
     
 }
@@ -35,31 +37,34 @@
 
 .icon-better {
     width: 90px;
-
-        padding: 45px 0 35px 0;
+    padding: 45px 0 35px 0;
+    @media all and (min-width: 900px){
+        padding-top: 0;
+    }
 
 
 }
 .article {
     padding: 0 103px;
     &__title {
-        font-size: $size-small-title;
-        
+        font-size: $size-small-title;      
     }
 
     &__text{
         font-size: $size-normal-text;
         padding-top: 8px;
+
     }
 
-    &__1{
-        @media all and (min-width: 900px){
+     @media all and (min-width: 900px){
+        
             grid-column: 1/2;
             grid-row: 1/2;
-        }
-    }
-
-
-        
+            width: 208px;
+            justify-content: center;
+            
+        }    
   
 }
+
+
