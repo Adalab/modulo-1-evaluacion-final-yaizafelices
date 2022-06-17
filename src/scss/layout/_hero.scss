@@ -7,31 +7,28 @@
     height: 100vh; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
 
-.rectangle-hero {
+
+&__rectangle {
     margin: 0 auto;
     text-align: center;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+
 }
 
-.logo {
+&__logo {
     width: 13.313rem;
     height: 6rem;
     padding-top: 19px;
-    position: absolute;
 
 }
-.title-hero{
+&__title{
     color: $color-spruce;
     padding: 62px 0;
     font-size: $size-big-title;
 
 
+}
 }
 
 .button-buy{
