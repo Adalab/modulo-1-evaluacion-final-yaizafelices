@@ -2,27 +2,25 @@
     background-color: $color-spruce;
     height: 545px;
     color: $color-light-grey;
-    padding:36px 59px 0 146px;
 
     @media all and (min-width: 768px){
         display: flex;
         gap: 30px;
         height: 276px;
-        padding: 0;
         justify-content: center;
         align-items: center;
     }
 
     @media all and (min-width: 1024px){
-        gap: 100px;
         height: 276px;
+        gap: 100px;
     }
     
     &__section {
         list-style: none;
         @media all and (min-width: 768px){
-            height: 96px;
-            width: 393px;
+            height: 131px;
+            width: 208px;
 
         }
     }
