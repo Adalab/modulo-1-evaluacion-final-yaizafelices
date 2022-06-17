@@ -3,24 +3,18 @@
     position: absolute;
 }
 
-.figures {
-    margin-top: 1.188rem;
-
-
-}
-.icon-menu {
-    height: 1.5rem;
-    margin: 2.25rem 2.688rem 0 2.063rem;
+.menu {
+    padding: 3.438rem 0 0 2.063rem;   
+    width: 1.5rem;
     position: fixed;
+
+&__icon {
+    height: 1.5rem;
+    width: 1.5rem;
     color: $color-spruce;
 }
-
-.logo {
-    width: 13.313rem;
-    height: 6rem;
-    margin-left: 100px;
-    display: flex;
 }
+
 
 .nav {
     display: none;
