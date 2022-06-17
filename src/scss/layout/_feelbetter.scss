@@ -8,26 +8,40 @@
     background-color: $color-light-grey;
     text-align: center;
     color: $color-spruce;
-    display: grid;
+
+    @media all and (max-width: 900px){
+    display: grid ;
     grid-template-rows: 154px 318px 318px 318px;
+}
+
+
+    @media all and (min-width: 900px){
+        grid-template-columns: (1fr 1fr 1fr) ;
+        grid-template-rows: (159px 453px);
+
+    }
     
 }
 
 .title-better {
-    padding: 41px 47px 47px 45px;
     font-size: $size-big-title;
+        padding: 41px 47px 47px 45px;
+
+    @media all and (min-width: 900px){
+        grid-column: span 3;
+    }
 }
 
 
 .icon-better {
-    padding: 45px 0 35px 0;
     width: 90px;
- 
+
+        padding: 45px 0 35px 0;
+
 
 }
 .article {
     padding: 0 103px;
-
     &__title {
         font-size: $size-small-title;
         
@@ -37,5 +51,15 @@
         font-size: $size-normal-text;
         padding-top: 8px;
     }
+
+    &__1{
+        @media all and (min-width: 900px){
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+    }
+
+
+        
   
 }
