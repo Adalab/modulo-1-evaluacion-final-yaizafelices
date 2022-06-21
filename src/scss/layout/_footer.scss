@@ -1,7 +1,9 @@
 .footer {
-    background-color: $color-spruce;
+    background-color: $color-orange;
     height: 545px;
-    color: $color-light-grey;
+    color: black;
+
+
 
     @media all and (max-width: 900px){
 
@@ -38,7 +40,7 @@
     }
 
     &__title {
-        padding-top: 30px;
+        padding-top: 45px;
         list-style: none;
         font-size: $size-small-title;
         width: 208px;
@@ -54,6 +56,7 @@
         font-size: $size-small-text;
         width: 208px;
         text-align: left;
+        color: black;
 
     }
 
@@ -61,15 +64,25 @@
         text-decoration: none;
         list-style: none;
         font-size: $size-small-text;
-        color: $color-light-grey;
+        color: black;
         &:hover {
             color: $color-orange;
           }
 
     }
+#first {
+    order: 1;
+}
 
+#second {
+    order:2;
+}
+
+#last {
+    order:3;
+}
 .icons {
-    color: $color-white;
+    color: black;
     font-size: large;
     padding-right: 11px;
     &:hover {
@@ -80,7 +93,7 @@
 }
 
 .arrow {
-    color: $color-white;
+    color: black;
     position: absolute;
     padding: 16px 32px;
     right: 0;
@@ -92,5 +105,11 @@
     @media all and (min-width: 900px){
         padding-top: 130px;
         padding-right: 57px;
+    }
+}
+
+.contact-red {
+    @media all and (min-width: 900px){
+        color: red;
     }
 }
